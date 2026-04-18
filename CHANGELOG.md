@@ -1,4 +1,10 @@
 # Changelog
+## [Apr 18, 2026] - Simple CNN
+### Added
+- Simple CNN with 3 conv layers trained from scratch
+- Test accuracy: 96.62%, Macro F1: 0.9435
+- Beats HOG+SVM baseline by 9.45%
+- AI assistance: Claude (Anthropic) used for implementation
 ## [Apr 18, 2026] - HOG+SVM Baseline
 ### Added
 - HOG feature extraction from GTSRB dataset
