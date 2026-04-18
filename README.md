@@ -17,7 +17,9 @@ augmentation training helps close the performance gap.
 
 ### Dataset
 German Traffic Sign Recognition Benchmark (GTSRB)
-- ~51,840 labeled images across 43 traffic sign categories
+- 39,209 total training images, split into 23,976 training and 2,664 validation samples
+- 12,630 test samples
+- 43 traffic sign categories
 - Publicly available on Kaggle
 - Synthetic degradations applied: Gaussian blur, additive noise, brightness reduction, fog
 
