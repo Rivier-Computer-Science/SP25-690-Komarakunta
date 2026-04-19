@@ -1,4 +1,26 @@
 # Changelog
+## [Apr 19, 2026] - Baseline Comparison Results
+### Results Summary
+| Model      | Test Accuracy | Macro F1 |
+|------------|---------------|----------|
+| HOG+SVM    | 87.17%        | 0.86     |
+| Simple CNN | 96.62%        | 0.9435   |
+| ResNet18   | 96.83%        | 0.9253   |
+| ViT-Base   | 96.66%        | 0.9173   |
+
+### Key Observations
+- Deep learning models outperform HOG+SVM by ~10%
+- All three deep models perform within 0.21% of each other on clean images
+- Pretrained models (ResNet18, ViT) not significantly better than 
+  Simple CNN from scratch on clean images
+- Real architectural differences expected in robustness evaluation
+- ViT underperforms expectations possibly due to small dataset size
+  and simple geometric nature of traffic signs
+
+### Next Steps
+- Robustness evaluation under blur, noise, brightness, fog
+- Ablation study: with vs without degradation augmentation
+- Failure analysis and confusion matrices
 ## [Apr 19, 2026] - ViT Training
 ### Added
 - Vision Transformer ViT-Base pretrained on ImageNet-21k, fine-tuned on GTSRB
