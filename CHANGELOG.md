@@ -1,4 +1,35 @@
 # Changelog
+## [Apr 26, 2026] - Ablation Study Complete
+### Added
+- Ablation study: ResNet18 trained with vs without degradation augmentation
+- Degradation augmentation improves robustness significantly:
+  - Fog S4: +22.64% improvement
+  - Noise S3: +13.38% improvement  
+  - Brightness S4: +9.60% improvement
+  - Clean accuracy also improves: +0.57%
+- Ablation plot saved to results/figures
+- AI assistance: Claude (Anthropic)
+
+## [Apr 26, 2026] - Robustness Evaluation Complete
+### Added
+- Tested all 4 models under blur, noise, brightness, fog degradations
+- Key findings:
+  - ViT most robust under Blur and Fog
+  - Simple CNN most robust under Noise
+  - ResNet most robust under Brightness
+  - HOG+SVM most sensitive to all degradations
+- Robustness curves and confusion matrices saved to results/figures
+- All confusion matrices generated for all 4 models
+- AI assistance: Claude (Anthropic)
+
+## [Apr 26, 2026] - Final Results Summary
+### Results (Robustness Notebook)
+| Model | Test Accuracy | Macro F1 |
+|-------|--------------|----------|
+| HOG+SVM | 87.17% | 0.8555 |
+| Simple CNN | 93.65% | 0.8808 |
+| ResNet18 | 96.58% | 0.9206 |
+| ViT | 95.61% | 0.9028 |
 ## [Apr 19, 2026] - Baseline Comparison Results
 ### Results Summary
 | Model      | Test Accuracy | Macro F1 |
