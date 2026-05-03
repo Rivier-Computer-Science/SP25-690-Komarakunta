@@ -1,5 +1,25 @@
 # Changelog
-## [Apr 26, 2026] - Ablation Study Complete
+## [May 2, 2026] - All Experiments Complete
+### Summary
+- All 8 notebooks committed to GitHub
+- Robustness evaluation complete for all 4 models
+- Ablation studies complete for ResNet18 and ViT
+- All figures saved to results/figures
+- Ready for report writing
+- AI assistance: Claude (Anthropic)
+
+## [May 2, 2026] - ViT Ablation Study Complete
+### Added
+- ViT ablation study: ViT trained with vs without degradation augmentation
+- Degradation augmentation improves ViT robustness:
+  - Brightness S4: +14.53% improvement
+  - Fog S4: +7.54% improvement
+  - Noise S3: +7.47% improvement
+  - Clean accuracy also improves: +0.68%
+- ViT ablation plot saved to results/figures
+- Notebook: 08_vit_ablation.ipynb committed to GitHub
+- AI assistance: Claude (Anthropic)
+## [Apr 26, 2026] - ResNet18 Ablation Study Complete
 ### Added
 - Ablation study: ResNet18 trained with vs without degradation augmentation
 - Degradation augmentation improves robustness significantly:
