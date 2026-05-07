@@ -105,7 +105,7 @@ Enable GPU accelerator
 Load GTSRB dataset from Kaggle Datasets
 Execute notebooks in order (01 → 08)
 
-Key Findings
+##Key Findings
 Clean accuracy is a poor predictor of real-world robustness
 Models scored 93-97% on clean data but showed 15-32 point gaps under degradation.
 Architecture choice matters for specific degradation types
@@ -119,23 +119,23 @@ Improvements of 13-22% under degradation with zero clean accuracy cost.
 Transformers excel under global degradation
 ViT outperformed CNNs by 15 points under fog where local features disappear.
 
-Limitations
+##Limitations
 Image size inconsistency (64×64 vs 224×224) across models
 Dataset limited to European traffic signs (geographic bias)
 Degradations tested independently, not in combination
 Synthetic degradations may not fully capture real-world complexity
 
-Future Work
+##Future Work
 Evaluate all models at consistent resolution
 Test combined degradations (e.g., fog + noise simultaneously)
 Extend to geographically diverse traffic sign datasets
 Deploy models on real driving footage for validation
 
-Acknowledgments
+##Acknowledgments
 AI Assistance: Claude (Anthropic) was used for code implementation assistance, debugging, and structure guidance. All code was reviewed, tested, and adapted by the author.
-Pretrained Models:
+###Pretrained Models:
 ResNet-18: torchvision.models.resnet18(pretrained=True)
 ViT-Base: google/vit-base-patch16-224 (HuggingFace)
-Dataset: German Traffic Sign Recognition Benchmark (Stallkamp et al., 2012)
+###Dataset: German Traffic Sign Recognition Benchmark (Stallkamp et al., 2012)
 
-Repository: https://github.com/Rivier-Computer-Science/SP25-690-Komarakunta
+##Repository: https://github.com/Rivier-Computer-Science/SP25-690-Komarakunta
