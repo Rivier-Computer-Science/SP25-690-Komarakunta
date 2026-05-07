@@ -73,23 +73,6 @@ Traffic sign recognition is a safety-critical task in autonomous driving. While 
 - Fog S4: +7.54% improvement
 - Clean accuracy: +0.68% (no tradeoff!)
 
----
-
-## Repository Structure
-├── notebooks/
-│   ├── 01_data_exploration.ipynb.    # Dataset analysis and visualization
-│   ├── 02_baseline_models.ipynb      # HOG+SVM baseline
-│   ├── 03_simple_cnn.ipynb           # Simple CNN training
-│   ├── 04_resnet18.ipynb             # ResNet-18 fine-tuning
-│   ├── 05_vit.ipynb                  # Vision Transformer fine-tuning
-│   ├── 06_robustness_evaluation.ipynb # Degradation experiments
-│   ├── 07_ablation_study.ipynb       # ResNet augmentation ablation
-│   └── 08_vit_ablation.ipynb          # ViT augmentation ablation
-├── results/figures/                   # Saved plots and visualizations
-├── CHANGELOG.md                      # Complete development history
-└── README.md                          #This file
----
-
 ## Setup & Execution
 
 ### Environment
