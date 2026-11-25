@@ -1,0 +1,40 @@
+project: "From News to Chat: Does Predictive Text Survive a Change of Style?"
+seed: 42
+
+data:
+  formal: "wikitext-103-raw-v1"
+  casual: "TBD"   # exact tweet/chat dataset name, filled in once download is confirmed
+  train_subset_words: 5000000
+
+protocol:
+  lowercase: true
+  url_token: "<url>"
+  user_token: "<user>"
+  unk_token: "<unk>"
+  min_word_count: 3
+  score_alphabetic_targets_only: true
+  suggest_unk: false
+
+models:
+  bigram:
+    smoothing: "add-k"
+    tuned_on: "validation"
+  trigram:
+    smoothing: "interpolation"
+    tuned_on: "validation"
+  distilgpt2:
+    model_id: "distilgpt2"
+    training: "none"
+    first_token_candidates: 50
+
+evaluation:
+  top_k: 3
+  bootstrap_resamples: 1000
+  bootstrap_unit: "sentence"
+  confidence: 0.95
+  test_sets_used_once: true
+
+success_criterion: >
+  A model survives the change of style if its formal-to-casual drop in top-3
+  accuracy is smaller than the bigram's drop, and the 95% paired-bootstrap
+  interval of the difference between the drops excludes 0.
