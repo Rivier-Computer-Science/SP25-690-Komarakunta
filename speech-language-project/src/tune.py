@@ -16,7 +16,7 @@ from evaluate import bigram_logprobs, ngram_features, perplexity, trigram_logpro
 from ngram import BigramLM, NGramCounts, TrigramLM, ROOT, read_sentences
 
 K_GRID = [0.001, 0.003, 0.01, 0.03, 0.1, 0.3, 1.0]
-L1_GRID = [0.01, 0.02, 0.05, 0.1, 0.2, 0.3]          # unigram weight
+L1_GRID = [0.01, 0.02, 0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6]   # unigram weight
 L3_GRID = [0.05, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]   # trigram weight
 
 
