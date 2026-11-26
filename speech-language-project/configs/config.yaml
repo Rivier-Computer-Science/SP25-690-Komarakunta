@@ -3,6 +3,7 @@ seed: 42
 
 data:
   formal: "wikitext-103-raw-v1"
+  formal_repo: "Salesforce/wikitext"
   casual: "cardiffnlp/tweet_eval"
   casual_config: "sentiment"   # only the text field is used, labels are ignored
   casual_tuning_split: "validation"
@@ -11,6 +12,7 @@ data:
 
 protocol:
   lowercase: true
+  min_sentence_words: 3
   url_token: "<url>"
   user_token: "<user>"
   unk_token: "<unk>"

@@ -1,0 +1,32 @@
+{
+  "train_formal": {
+    "sentences": 236263,
+    "words": 5000029,
+    "removed_train_or_earlier_overlap": 0,
+    "removed_duplicates": 0
+  },
+  "formal_val": {
+    "sentences": 8259,
+    "words": 173681,
+    "removed_train_or_earlier_overlap": 48,
+    "removed_duplicates": 23
+  },
+  "formal_test": {
+    "sentences": 9425,
+    "words": 194994,
+    "removed_train_or_earlier_overlap": 39,
+    "removed_duplicates": 30
+  },
+  "casual_val": {
+    "sentences": 3192,
+    "words": 36393,
+    "removed_train_or_earlier_overlap": 0,
+    "removed_duplicates": 3
+  },
+  "casual_test": {
+    "sentences": 16791,
+    "words": 166439,
+    "removed_train_or_earlier_overlap": 4,
+    "removed_duplicates": 36
+  }
+}
