@@ -3,7 +3,10 @@ seed: 42
 
 data:
   formal: "wikitext-103-raw-v1"
-  casual: "TBD"   # exact tweet/chat dataset name, filled in once download is confirmed
+  casual: "cardiffnlp/tweet_eval"
+  casual_config: "sentiment"   # only the text field is used, labels are ignored
+  casual_tuning_split: "validation"
+  casual_test_split: "test"
   train_subset_words: 5000000
 
 protocol:
