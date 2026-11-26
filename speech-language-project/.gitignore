@@ -1,4 +1,3 @@
-   # generated data and caches
-   data/
-   __pycache__/
-   *.pyc
+data/
+__pycache__/
+*.pyc
