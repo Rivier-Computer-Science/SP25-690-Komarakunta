@@ -1,0 +1,20 @@
+{
+  "tuned_on": "formal_val (in-vocabulary perplexity)",
+  "bigram": {
+    "k": 0.003,
+    "val_perplexity": 793.0783833718334
+  },
+  "trigram": {
+    "lambdas": [
+      0.3,
+      0.4,
+      0.3
+    ],
+    "val_perplexity": 458.44279514657893
+  },
+  "val_oov_rate": 0.03032568458876439,
+  "val_top3_sample": {
+    "bigram": 0.25533333333333336,
+    "trigram": 0.287
+  }
+}
