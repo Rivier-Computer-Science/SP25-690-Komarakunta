@@ -1,0 +1,27 @@
+{
+  "split": "casual_val",
+  "sentences": 150,
+  "positions": 1644,
+  "seed": 42,
+  "bigram_k": 0.003,
+  "trigram_lambdas": [
+    0.3,
+    0.4,
+    0.3
+  ],
+  "distilgpt2": {
+    "model_id": "distilgpt2",
+    "training": "none",
+    "first_token_candidates": 10,
+    "continuations_per_step": 3,
+    "max_subtokens": 4
+  },
+  "distilgpt2_revision": "2290a62682d06624634c1f46a6ad5be0f47f38aa",
+  "python": "3.11.18",
+  "torch": "2.15.0+cpu",
+  "transformers": "5.24.1",
+  "numpy": "2.4.6",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "cpu_count": 16,
+  "runtime_seconds": 262.8
+}

@@ -30,7 +30,9 @@ models:
   distilgpt2:
     model_id: "distilgpt2"
     training: "none"
-    first_token_candidates: 50
+    first_token_candidates: 10
+    continuations_per_step: 3
+    max_subtokens: 4
 
 evaluation:
   top_k: 3
