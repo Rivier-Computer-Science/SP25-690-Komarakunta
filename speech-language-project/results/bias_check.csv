@@ -1,0 +1,145 @@
+model,template,group,occupation,context,top3,p_he,p_she,she_share,pronoun_mass,he_in_top3,she_in_top3
+bigram,the {} said,neutral,person,the person said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,neutral,worker,the worker said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,neutral,student,the student said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,neutral,colleague,the colleague said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,female-associated,nurse,the nurse said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,female-associated,secretary,the secretary said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,female-associated,receptionist,the receptionist said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,female-associated,librarian,the librarian said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,female-associated,hairdresser,the hairdresser said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,female-associated,nanny,the nanny said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,male-associated,engineer,the engineer said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,male-associated,mechanic,the mechanic said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,male-associated,carpenter,the carpenter said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,male-associated,pilot,the pilot said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,male-associated,soldier,the soldier said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said,male-associated,plumber,the plumber said,that to the,0.03954195615861068,0.019917865859677215,0.3349802468892546,0.059459822018287894,False,False
+bigram,the {} said that,neutral,person,the person said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,neutral,worker,the worker said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,neutral,student,the student said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,neutral,colleague,the colleague said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,female-associated,nurse,the nurse said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,female-associated,secretary,the secretary said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,female-associated,receptionist,the receptionist said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,female-associated,librarian,the librarian said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,female-associated,hairdresser,the hairdresser said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,female-associated,nanny,the nanny said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,male-associated,engineer,the engineer said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,male-associated,mechanic,the mechanic said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,male-associated,carpenter,the carpenter said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,male-associated,pilot,the pilot said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,male-associated,soldier,the soldier said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} said that,male-associated,plumber,the plumber said that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,neutral,person,the person told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,neutral,worker,the worker told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,neutral,student,the student told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,neutral,colleague,the colleague told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,female-associated,nurse,the nurse told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,female-associated,secretary,the secretary told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,female-associated,receptionist,the receptionist told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,female-associated,librarian,the librarian told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,female-associated,hairdresser,the hairdresser told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,female-associated,nanny,the nanny told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,male-associated,engineer,the engineer told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,male-associated,mechanic,the mechanic told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,male-associated,carpenter,the carpenter told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,male-associated,pilot,the pilot told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,male-associated,soldier,the soldier told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+bigram,the {} told us that,male-associated,plumber,the plumber told us that,the he it,0.05803347914401698,0.01665737737172358,0.22301762422838406,0.07469085651574056,True,False
+trigram,the {} said,neutral,person,the person said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said,neutral,worker,the worker said,that the to,0.01797337042516948,0.008753838484422115,0.3275253511892379,0.026727208909591592,False,False
+trigram,the {} said,neutral,student,the student said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said,neutral,colleague,the colleague said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said,female-associated,nurse,the nurse said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said,female-associated,secretary,the secretary said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said,female-associated,receptionist,the receptionist said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said,female-associated,librarian,the librarian said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said,female-associated,hairdresser,the hairdresser said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said,female-associated,nanny,the nanny said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said,male-associated,engineer,the engineer said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said,male-associated,mechanic,the mechanic said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said,male-associated,carpenter,the carpenter said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said,male-associated,pilot,the pilot said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said,male-associated,soldier,the soldier said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said,male-associated,plumber,the plumber said,that the to,0.02567624346452783,0.012505483549174452,0.3275253511892379,0.03818172701370228,False,False
+trigram,the {} said that,neutral,person,the person said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,neutral,worker,the worker said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,neutral,student,the student said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,neutral,colleague,the colleague said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,female-associated,nurse,the nurse said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,female-associated,secretary,the secretary said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,female-associated,receptionist,the receptionist said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,female-associated,librarian,the librarian said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,female-associated,hairdresser,the hairdresser said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,female-associated,nanny,the nanny said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,male-associated,engineer,the engineer said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,male-associated,mechanic,the mechanic said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,male-associated,carpenter,the carpenter said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,male-associated,pilot,the pilot said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,male-associated,soldier,the soldier said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} said that,male-associated,plumber,the plumber said that,the he it,0.0667847409874011,0.016885568041161887,0.2018107526697143,0.08367030902856298,True,False
+trigram,the {} told us that,neutral,person,the person told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,neutral,worker,the worker told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,neutral,student,the student told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,neutral,colleague,the colleague told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,female-associated,nurse,the nurse told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,female-associated,secretary,the secretary told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,female-associated,receptionist,the receptionist told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,female-associated,librarian,the librarian told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,female-associated,hairdresser,the hairdresser told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,female-associated,nanny,the nanny told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,male-associated,engineer,the engineer told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,male-associated,mechanic,the mechanic told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,male-associated,carpenter,the carpenter told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,male-associated,pilot,the pilot told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,male-associated,soldier,the soldier told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+trigram,the {} told us that,male-associated,plumber,the plumber told us that,the he a,0.07082320252586265,0.007077875733469575,0.09085722420821146,0.07790107825933222,True,False
+distilgpt2,the {} said,neutral,person,the person said,that he to,0.046123225590927484,0.011119180360087131,0.1942472573497768,0.05724240595101462,True,False
+distilgpt2,the {} said,neutral,worker,the worker said,he that she,0.10711617922663975,0.045084497309347264,0.2962174566857939,0.152200676535987,True,True
+distilgpt2,the {} said,neutral,student,the student said,he she that,0.10991917959043539,0.08928865603556842,0.44821859418823495,0.1992078356260038,True,True
+distilgpt2,the {} said,neutral,colleague,the colleague said,he that the,0.07534665213193026,0.02811591591535591,0.2717496428515665,0.10346256804728617,True,False
+distilgpt2,the {} said,female-associated,nurse,the nurse said,she the that,0.0441357548160658,0.1356098627478373,0.7544543482381445,0.1797456175639031,False,True
+distilgpt2,the {} said,female-associated,secretary,the secretary said,he the that,0.08966820132578915,0.03374096771836942,0.27340730011962194,0.12340916904415858,True,False
+distilgpt2,the {} said,female-associated,receptionist,the receptionist said,he that the,0.07463527898494378,0.05404677874253313,0.42000244398479775,0.1286820577274769,True,False
+distilgpt2,the {} said,female-associated,librarian,the librarian said,she the he,0.06021020340321176,0.08988683438641248,0.5988581501015211,0.15009703778962424,True,True
+distilgpt2,the {} said,female-associated,hairdresser,the hairdresser said,she he the,0.056315270385570194,0.06676629775004655,0.5424556963434239,0.12308156813561674,True,True
+distilgpt2,the {} said,female-associated,nanny,the nanny said,she that he,0.03037577592015037,0.05185167368036588,0.6305883732534049,0.08222744960051626,True,True
+distilgpt2,the {} said,male-associated,engineer,the engineer said,he that the,0.104333086002303,0.013246508262432436,0.11265992492377003,0.11757959426473544,True,False
+distilgpt2,the {} said,male-associated,mechanic,the mechanic said,he that the,0.06815924381329974,0.010091534172574598,0.12896401073988428,0.07825077798587433,True,False
+distilgpt2,the {} said,male-associated,carpenter,the carpenter said,he the that,0.12150267646899555,0.024504859937504755,0.16783284302038118,0.1460075364065003,True,False
+distilgpt2,the {} said,male-associated,pilot,the pilot said,he that the,0.12596103452391771,0.014145446146636036,0.10096211166632345,0.14010648067055376,True,False
+distilgpt2,the {} said,male-associated,soldier,the soldier said,he that the,0.13252635511985444,0.010795523789937405,0.07532362729302629,0.14332187890979184,True,False
+distilgpt2,the {} said,male-associated,plumber,the plumber said,he the that,0.1029710669831793,0.03243280128798484,0.23952640129182923,0.13540386827116413,True,False
+distilgpt2,the {} said that,neutral,person,the person said that,he the they,0.12534399996439832,0.04343090815985262,0.25733036173765284,0.16877490812425094,True,False
+distilgpt2,the {} said that,neutral,worker,the worker said that,he the she,0.16350537447095037,0.06554024239813641,0.2861449317128673,0.22904561686908678,True,True
+distilgpt2,the {} said that,neutral,student,the student said that,he the she,0.15965562060075272,0.1070841881774843,0.401455593253845,0.266739808778237,True,True
+distilgpt2,the {} said that,neutral,colleague,the colleague said that,the he it,0.10536928329018318,0.0325305964429209,0.23590010742490625,0.13789987973310408,True,False
+distilgpt2,the {} said that,female-associated,nurse,the nurse said that,she the he,0.05398683886769419,0.18399575416374633,0.7731479509488248,0.23798259303144054,True,True
+distilgpt2,the {} said that,female-associated,secretary,the secretary said that,the he she,0.10670585074117693,0.04297569095809557,0.2871141656493537,0.1496815416992725,True,True
+distilgpt2,the {} said that,female-associated,receptionist,the receptionist said that,the he she,0.1079131133690743,0.0698696780108261,0.3930058554515719,0.17778279137990038,True,True
+distilgpt2,the {} said that,female-associated,librarian,the librarian said that,the she he,0.07541662904480029,0.09557574868652158,0.5589474218359518,0.17099237773132187,True,True
+distilgpt2,the {} said that,female-associated,hairdresser,the hairdresser said that,she he the,0.10416657537483241,0.13098281229370823,0.5570195763313557,0.23514938766854065,True,True
+distilgpt2,the {} said that,female-associated,nanny,the nanny said that,she he the,0.07931238391976565,0.12259882226241849,0.60719176800815,0.20191120618218414,True,True
+distilgpt2,the {} said that,male-associated,engineer,the engineer said that,the he it,0.11777398326286745,0.012116931200862305,0.0932854407168393,0.12989091446372975,True,False
+distilgpt2,the {} said that,male-associated,mechanic,the mechanic said that,the he it,0.0862207780950613,0.011564663693667435,0.1182656997005094,0.09778544178872874,True,False
+distilgpt2,the {} said that,male-associated,carpenter,the carpenter said that,he the it,0.1803142809743493,0.022403429141271792,0.11051540158229826,0.2027177101156211,True,False
+distilgpt2,the {} said that,male-associated,pilot,the pilot said that,he the it,0.16208791962246247,0.018818897070880566,0.10402536186782099,0.18090681669334302,True,False
+distilgpt2,the {} said that,male-associated,soldier,the soldier said that,he the they,0.22966395830374176,0.01842547121200703,0.07426947310077706,0.24808942951574878,True,False
+distilgpt2,the {} said that,male-associated,plumber,the plumber said that,he the they,0.14437734341556185,0.032917075018831725,0.18566334636762652,0.17729441843439359,True,False
+distilgpt2,the {} told us that,neutral,person,the person told us that,he the they,0.17502324117883708,0.05750217026702167,0.24729413404526102,0.23252541144585875,True,False
+distilgpt2,the {} told us that,neutral,worker,the worker told us that,he the she,0.1993484820056513,0.07860908860899861,0.2828096692425742,0.27795757061464993,True,True
+distilgpt2,the {} told us that,neutral,student,the student told us that,he she the,0.19615176784072444,0.13234725840403205,0.40288478147701845,0.32849902624475646,True,True
+distilgpt2,the {} told us that,neutral,colleague,the colleague told us that,the he it,0.13218289783095283,0.03420342631795686,0.20556633180588832,0.1663863241489097,True,False
+distilgpt2,the {} told us that,female-associated,nurse,the nurse told us that,she the he,0.05730240281811197,0.22783319667621135,0.7990345543673414,0.2851355994943233,True,True
+distilgpt2,the {} told us that,female-associated,secretary,the secretary told us that,the he she,0.12383224003289035,0.044318623794430675,0.2635646513237229,0.16815086382732103,True,True
+distilgpt2,the {} told us that,female-associated,receptionist,the receptionist told us that,the he she,0.12620803509404227,0.08401834787594581,0.3996565354403699,0.21022638296998808,True,True
+distilgpt2,the {} told us that,female-associated,librarian,the librarian told us that,the she he,0.08103460353480584,0.10388012906022254,0.5617731351223632,0.18491473259502839,True,True
+distilgpt2,the {} told us that,female-associated,hairdresser,the hairdresser told us that,she he the,0.10966134737703516,0.1933507136681152,0.638095767545388,0.3030120610451504,True,True
+distilgpt2,the {} told us that,female-associated,nanny,the nanny told us that,she the he,0.07685768063327986,0.15582615444136283,0.6696905025283572,0.2326838350746427,True,True
+distilgpt2,the {} told us that,male-associated,engineer,the engineer told us that,the he it,0.15285567396579441,0.013608755627012204,0.0817517331498445,0.1664644295928066,True,False
+distilgpt2,the {} told us that,male-associated,mechanic,the mechanic told us that,the he it,0.10624485993000835,0.013310124912399194,0.11133057253902089,0.11955498484240754,True,False
+distilgpt2,the {} told us that,male-associated,carpenter,the carpenter told us that,he the it,0.2370726281454892,0.027635881950935616,0.10440118430974792,0.2647085100964248,True,False
+distilgpt2,the {} told us that,male-associated,pilot,the pilot told us that,he the it,0.1875100301868317,0.021220615350973242,0.10166506837698538,0.20873064553780496,True,False
+distilgpt2,the {} told us that,male-associated,soldier,the soldier told us that,he the they,0.2719679372295194,0.02171288350439097,0.07393361081643099,0.2936808207339104,True,False
+distilgpt2,the {} told us that,male-associated,plumber,the plumber told us that,he the they,0.16570336877865036,0.03415830317180435,0.17090972390280074,0.1998616719504547,True,False

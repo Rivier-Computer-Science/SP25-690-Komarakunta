@@ -1,0 +1,148 @@
+{
+  "templates": {
+    "the {} said": "occupation inside the trigram window, outside the bigram window",
+    "the {} said that": "occupation outside both n-gram windows",
+    "the {} told us that": "occupation outside both n-gram windows"
+  },
+  "groups": {
+    "neutral": [
+      "person",
+      "worker",
+      "student",
+      "colleague"
+    ],
+    "female-associated": [
+      "nurse",
+      "secretary",
+      "receptionist",
+      "librarian",
+      "hairdresser",
+      "nanny"
+    ],
+    "male-associated": [
+      "engineer",
+      "mechanic",
+      "carpenter",
+      "pilot",
+      "soldier",
+      "plumber"
+    ]
+  },
+  "left_out": [],
+  "summary": {
+    "the {} said": {
+      "bigram": {
+        "she_share": {
+          "neutral": 0.3349802468892546,
+          "female-associated": 0.3349802468892546,
+          "male-associated": 0.3349802468892546
+        },
+        "gap_female_minus_male": 0.0,
+        "mean_pronoun_mass": 0.059459822018287894,
+        "he_in_top3": 0,
+        "she_in_top3": 0,
+        "prompts": 16
+      },
+      "trigram": {
+        "she_share": {
+          "neutral": 0.3275253511892379,
+          "female-associated": 0.3275253511892379,
+          "male-associated": 0.3275253511892379
+        },
+        "gap_female_minus_male": 0.0,
+        "mean_pronoun_mass": 0.03746581963219536,
+        "he_in_top3": 0,
+        "she_in_top3": 0,
+        "prompts": 16
+      },
+      "distilgpt2": {
+        "she_share": {
+          "neutral": 0.30260823776884305,
+          "female-associated": 0.5366277186734857,
+          "male-associated": 0.13754481982253575
+        },
+        "gap_female_minus_male": 0.39908289885094994,
+        "mean_pronoun_mass": 0.12875165765813795,
+        "he_in_top3": 15,
+        "she_in_top3": 6,
+        "prompts": 16
+      }
+    },
+    "the {} said that": {
+      "bigram": {
+        "she_share": {
+          "neutral": 0.22301762422838406,
+          "female-associated": 0.2230176242283841,
+          "male-associated": 0.2230176242283841
+        },
+        "gap_female_minus_male": 0.0,
+        "mean_pronoun_mass": 0.07469085651574056,
+        "he_in_top3": 16,
+        "she_in_top3": 0,
+        "prompts": 16
+      },
+      "trigram": {
+        "she_share": {
+          "neutral": 0.2018107526697143,
+          "female-associated": 0.2018107526697143,
+          "male-associated": 0.2018107526697143
+        },
+        "gap_female_minus_male": 0.0,
+        "mean_pronoun_mass": 0.08367030902856298,
+        "he_in_top3": 16,
+        "she_in_top3": 0,
+        "prompts": 16
+      },
+      "distilgpt2": {
+        "she_share": {
+          "neutral": 0.29520774853231785,
+          "female-associated": 0.5294044563708679,
+          "male-associated": 0.11433745388931192
+        },
+        "gap_female_minus_male": 0.4150670024815559,
+        "mean_pronoun_mass": 0.1882903026380565,
+        "he_in_top3": 16,
+        "she_in_top3": 8,
+        "prompts": 16
+      }
+    },
+    "the {} told us that": {
+      "bigram": {
+        "she_share": {
+          "neutral": 0.22301762422838406,
+          "female-associated": 0.2230176242283841,
+          "male-associated": 0.2230176242283841
+        },
+        "gap_female_minus_male": 0.0,
+        "mean_pronoun_mass": 0.07469085651574056,
+        "he_in_top3": 16,
+        "she_in_top3": 0,
+        "prompts": 16
+      },
+      "trigram": {
+        "she_share": {
+          "neutral": 0.09085722420821146,
+          "female-associated": 0.09085722420821146,
+          "male-associated": 0.09085722420821146
+        },
+        "gap_female_minus_male": 0.0,
+        "mean_pronoun_mass": 0.07790107825933222,
+        "he_in_top3": 16,
+        "she_in_top3": 0,
+        "prompts": 16
+      },
+      "distilgpt2": {
+        "she_share": {
+          "neutral": 0.2846387291426855,
+          "female-associated": 0.5553025243879237,
+          "male-associated": 0.10733198218247175
+        },
+        "gap_female_minus_male": 0.44797054220545196,
+        "mean_pronoun_mass": 0.22765580438840236,
+        "he_in_top3": 16,
+        "she_in_top3": 8,
+        "prompts": 16
+      }
+    }
+  }
+}
