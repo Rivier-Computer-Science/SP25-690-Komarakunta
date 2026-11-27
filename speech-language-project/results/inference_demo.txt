@@ -1,0 +1,92 @@
+Input      : 'the united'
+Context    : the united
+bigram     : states, kingdom, nations
+trigram    : states, kingdom, nations
+distilgpt2 : states, forces, front
+
+Input      : 'he was born in'
+Context    : he was born in
+bigram     : the, a, his
+trigram    : the, a, new
+distilgpt2 : the, a, an
+
+Input      : 'i love'
+Context    : i love
+bigram     : with, and, of
+trigram    : you, the, and
+distilgpt2 : to, it, the
+
+Input      : '<user> thanks for'
+Context    : <user> thanks for
+bigram     : the, a, his
+trigram    : his, the, all
+distilgpt2 : your, the, reading
+Note       : not in the n-gram vocabulary (treated as <unk>): <user>
+
+Input      : 'lol that was so'
+Context    : lol that was so
+bigram     : that, the, much
+trigram    : that, the, much
+distilgpt2 : bad, good, much
+Note       : not in the n-gram vocabulary (treated as <unk>): lol
+
+Input      : ''
+Context    : (empty)
+bigram     : the, in, he
+trigram    : the, in, he
+distilgpt2 : the, to, and
+Note       : nothing typed yet: suggesting how a sentence may start
+
+Input      : '   '
+Context    : (empty)
+bigram     : the, in, he
+trigram    : the, in, he
+distilgpt2 : the, to, and
+Note       : nothing typed yet: suggesting how a sentence may start
+
+Input      : '😂😂😂'
+Context    : 😂 😂 😂
+bigram     : and, in, of
+trigram    : and, in, of
+distilgpt2 : https, pic, http
+Note       : not in the n-gram vocabulary (treated as <unk>): 😂
+
+Input      : 'zzzxqy qwerty'
+Context    : zzzxqy qwerty
+bigram     : and, in, of
+trigram    : and, in, of
+distilgpt2 : qwerty, w, z
+Note       : not in the n-gram vocabulary (treated as <unk>): zzzxqy, qwerty
+
+Input      : 'check this out https://t.co/abc123'
+Context    : check this out <url>
+bigram     : also, another, near
+trigram    : also, another, near
+distilgpt2 : http, to, https
+
+Input      : 'the war ended. the'
+Context    : the
+bigram     : first, game, song
+trigram    : the, first, of
+distilgpt2 : first, world, same
+
+Input      : 'the war ended.'
+Context    : (empty)
+bigram     : the, in, he
+trigram    : the, in, he
+distilgpt2 : the, to, and
+Note       : the sentence just ended: suggesting how a new sentence may start
+
+Input      : '!!!'
+Context    : (empty)
+bigram     : the, in, he
+trigram    : the, in, he
+distilgpt2 : the, to, and
+Note       : the sentence just ended: suggesting how a new sentence may start
+
+Input      : 'the the the the the the the the the the the the the the the the the th...'
+Context    : ... the the the the the the the the the the the the
+bigram     : first, game, song
+trigram    : new, the, grand
+distilgpt2 : the, a, an
+Note       : long input: using the last 100 tokens
